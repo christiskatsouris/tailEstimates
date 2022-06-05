@@ -26,7 +26,7 @@ library("tailEstimates")
 
 [3] Härdle, W. K., Wang, W., & Yu, L. (2016). "Tenet: Tail-event driven network risk". Journal of Econometrics, 192(2), 499-513. [DOI:10.1016/j.jeconom.2016.02.013](https://www.sciencedirect.com/science/article/pii/S0304407616300161).  
 
-## Notes
+## Code of Coduct
 
 Please note that the ‘tailEstimates’ project will be released with a Contributor Code of Coduct (under construction). By contributing to this project, you agree to abide by its terms.
 
