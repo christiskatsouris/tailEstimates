@@ -22,9 +22,9 @@ library("tailEstimates")
 
 [1] Katsouris, C. (2021). "Optimal Portfolio Choice and Stock Centrality for Tail Risk Events". arXiv preprint [arXiv:2112.12031](https://arxiv.org/abs/2112.12031).
 
-[2] Tobias, A., & Brunnermeier, M. K. (2016). "CoVaR". The American Economic Review, 106(7), 1705.
+[2] Tobias, A., & Brunnermeier, M. K. (2016). "CoVaR". The American Economic Review, 106(7), 1705. [DOI:10.1257/aer.20120555](https://www.aeaweb.org/articles?id=10.1257/aer.20120555).
 
-[3] Härdle, W. K., Wang, W., & Yu, L. (2016). "Tenet: Tail-event driven network risk". Journal of Econometrics, 192(2), 499-513.
+[3] Härdle, W. K., Wang, W., & Yu, L. (2016). "Tenet: Tail-event driven network risk". Journal of Econometrics, 192(2), 499-513. [DOI:10.1016/j.jeconom.2016.02.013](https://www.sciencedirect.com/science/article/pii/S0304407616300161).  
 
 ## Notes
 
