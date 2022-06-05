@@ -28,7 +28,7 @@ library("tailEstimates")
 
 ## Notes
 
-Please note that the ‘BreakPointCovarianceQFM’ project will be released with a Contributor Code of Coduct (under construction). By contributing to this project, you agree to abide by its terms.
+Please note that the ‘tailEstimates’ project will be released with a Contributor Code of Coduct (under construction). By contributing to this project, you agree to abide by its terms.
 
 ## Declarations
 
