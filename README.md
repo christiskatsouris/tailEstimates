@@ -6,7 +6,7 @@ Compute least squares estimates and IVX estimates with pairwise quantile predict
 
 ## Installation (under development)
 
-The R package will be able to be installed from Github.
+The R package ‘tailEstimates’ will be able to be installed from Github.
 
 ## Key References
 
