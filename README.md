@@ -8,6 +8,16 @@ Compute least squares estimates and IVX estimates with pairwise quantile predict
 
 The R package ‘tailEstimates’ will be able to be installed from Github.
 
+## Usage 
+
+```R
+
+# After development the package will be able to be installed using
+install.packages("tailEstimates")
+library("tailEstimates")
+
+```
+
 ## Key References
 
 [1] Katsouris, C. (2021). "Optimal Portfolio Choice and Stock Centrality for Tail Risk Events". arXiv preprint [arXiv:2112.12031](https://arxiv.org/abs/2112.12031).
@@ -15,6 +25,10 @@ The R package ‘tailEstimates’ will be able to be installed from Github.
 [2] Tobias, A., & Brunnermeier, M. K. (2016). "CoVaR". The American Economic Review, 106(7), 1705.
 
 [3] Härdle, W. K., Wang, W., & Yu, L. (2016). "Tenet: Tail-event driven network risk". Journal of Econometrics, 192(2), 499-513.
+
+## Notes
+
+Please note that the ‘BreakPointCovarianceQFM’ project will be released with a Contributor Code of Coduct (under construction). By contributing to this project, you agree to abide by its terms.
 
 ## Declarations
 
