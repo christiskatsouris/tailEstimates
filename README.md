@@ -2,7 +2,7 @@
 
 ## Optimal Portfolio Choice under tail events
 
-Compute least squares estimates and IVX estimates with pairwise quantile predictive regressions for the VaR-CoVaR risk matrix proposed in the paper of Katsouris, C. (2021).
+Compute least squares estimates and IVX estimates with pairwise quantile predictive regressions for the VaR-CoVaR risk matrix proposed in the paper of [Katsouris, C. (2021)](https://arxiv.org/abs/2112.12031).
 
 ## Installation (under development)
 
