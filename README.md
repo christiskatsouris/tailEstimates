@@ -23,13 +23,20 @@ library("tailEstimates")
 
 ### Firm Specific Variables
 
-- Leverage = Total Assets / Total Equity
-- Maturity Mismatch = Short term Debt / Total liabilities
-- Size = Log of Total Book Equity
-- Market-to-book = Market Value of Total Equity / Book Value of Total Equity
+- Leverage = Total Assets / Total Equity.
+- Maturity Mismatch = Short term Debt / Total liabilities.
+- Size = Log of Total Book Equity.
+- Market-to-book = Market Value of Total Equity / Book Value of Total Equity.
 
 ### Macroeconomic Variables
 
+- Variable 1 = the implied volatility index (VIX).
+- Variable 2 = the short term liquidity spread calculated as the difference between the three-month repo rate and the three-month bill rate.
+- Variable 3 = the changes in the three-month Treasury bill rate.
+- Variable 4 = the changes in the slope of the yield curve corresponding to the yield spread between the ten year Treasury rate and the three-month bill rate from FRB.
+- Variable 5 = the changes in the credit spread between BAA rated bonds and the Treasury rate.
+- Variable 6 = the weekly S&P500 index returns.
+- Variable 7 = the weekly Dow Jones US Real Estate index returns.
 
 ## Key References
 
