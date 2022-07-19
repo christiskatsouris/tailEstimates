@@ -1,11 +1,8 @@
+#########################################################
+## Function rq_fit: Fitting qunatile regression
+#########################################################
 
-
-> getAnywhere(rq.fit.br)
-A single object matching ‘rq.fit.br’ was found
-It was found in the following places
-package:quantreg
-namespace:quantreg
-with value
+## Reference: R package quantreg
 
 function (x, y, tau = 0.5, alpha = 0.1, ci = FALSE, iid = TRUE, 
           interp = TRUE, tcrit = TRUE) 
