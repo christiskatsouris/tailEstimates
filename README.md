@@ -18,6 +18,19 @@ library("tailEstimates")
 
 ```
 
+
+## TENET Dataset
+
+### Firm Specific Variables
+
+- Leverage = Total Assets / Total Equity
+- Maturity Mismatch = Short term Debt / Total liabilities
+- Size = Log of Total Book Equity
+- Market-to-book = Market Value of Total Equity / Book Value of Total Equity
+
+### Macroeconomic Variables
+
+
 ## Key References
 
 [1] Katsouris, C. (2021). "Optimal Portfolio Choice and Stock Centrality for Tail Risk Events". arXiv preprint [arXiv:2112.12031](https://arxiv.org/abs/2112.12031).
