@@ -44,6 +44,8 @@ library("tailEstimates")
 
 ## Empirical Application
 
+This short empirical study can help us to better understand the methodology used for fitting predictive regression models based on the IVX instrumentation of KMS (2015) by considering equation-by-equation estimates. Additionally, since the TENET dataset includes both system covariates (such as the macroeconomic variables) as well as firm-specific variables, we can also investigate with more details the statistical procedure for constructing the dynamic VaR-DCoVaR risk matrix as well as related asymptotic theory properties.   
+
 -	Step 1: For $y_t$ we use the stock returns of each firm and for $x_t$ the set of macroeconomic and firm variables corresponding to each firm. First, we construct the lag $x_t$ variables and regress $y_t$ on $x_t$ to obtain the A matrix with the estimated coefficients of this multivariate regression. Then, we estimate the residuals of the predictive regression, and we obtain the coefficients of the Rn matrix, which is simply estimated by solving with respect to the residuals in a regression model with no intercept. 
 
 -	Step 2: Estimation of predictive regression matrices. First, we estimate the autoregressive residuals, the residuals correlation matrix and the corresponding covariance matrix. These estimations help us to obtain the Omega matrices.
