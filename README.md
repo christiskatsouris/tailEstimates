@@ -4,9 +4,9 @@
 
 This R package has two main purposes:
 
-$\textbf{(a).}$ Implement the optimization and estimation procedure to obtain in-sample and out-of-sample estmates for the VaR-DCoVaR risk matrix proposed in the study of [Katsouris, C. (2021)](https://arxiv.org/abs/2112.12031).
+$\textbf{(a).}$ To Implement the optimization and estimation procedure to obtain in-sample and out-of-sample estmates for the VaR-DCoVaR risk matrix proposed in the study of [Katsouris, C. (2021)](https://arxiv.org/abs/2112.12031).
 
-$\textbf{(b).}$ Compute least squares estimates and IVX estimates for the VaR-DCoVaR risk matrix proposed based on pairwise quantile predictive regression models fitted on the nodes of the graph.
+$\textbf{(b).}$ To Compute least squares estimates and IVX estimates for the VaR-DCoVaR risk matrix proposed based on pairwise quantile predictive regression models fitted on the nodes of the graph.
 
 ## Installation (under development)
 
