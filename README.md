@@ -42,7 +42,15 @@ library("tailEstimates")
 - Variable 6 = the weekly S&P500 index returns.
 - Variable 7 = the weekly Dow Jones US Real Estate index returns.
 
-## Estimation Examples
+## Empirical Application
+
+-	Step 1: For $y_t$ we use the stock returns of each firm and for $x_t$ the set of macroeconomic and firm variables corresponding to each firm. First, we construct the lag $x_t$ variables and regress $y_t$ on $x_t$ to obtain the A matrix with the estimated coefficients of this multivariate regression. Then, we estimate the residuals of the predictive regression, and we obtain the coefficients of the Rn matrix, which is simply estimated by solving with respect to the residuals in a regression model with no intercept. 
+
+-	Step 2: Estimation of predictive regression matrices. First, we estimate the autoregressive residuals, the residuals correlation matrix and the corresponding covariance matrix. These estimations help us to obtain the Omega matrices.
+
+-	Step 3: Instrument construction. This step includes the construction/estimation of all necessary instrumental variables/matrices to apply the IVX methodology.  Thus, in this step we obtain estimates of the matrices $R_z$, $Z$, $zz$, $yy$, $xk$, $y_t$, $x_t$ and the computation of the Aivx and Wixv matrices. 
+
+### Estimation Examples
 
 ```R
 
