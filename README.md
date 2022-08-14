@@ -48,13 +48,34 @@ library("tailEstimates")
 
 -	Step 2: Estimation of predictive regression matrices. First, we estimate the autoregressive residuals, the residuals correlation matrix and the corresponding covariance matrix. These estimations help us to obtain the Omega matrices.
 
--	Step 3: Instrument construction. This step includes the construction/estimation of all necessary instrumental variables/matrices to apply the IVX methodology.  Thus, in this step we obtain estimates of the matrices $R_z$, $Z$, $zz$, $yy$, $xk$, $y_t$, $x_t$ and the computation of the Aivx and Wixv matrices. 
+-	Step 3: Instrument construction. This step includes the construction/estimation of all necessary instrumental variables/matrices to apply the IVX methodology.  Thus, in this step we obtain estimates of the matrices $R_z$, $Z$, $y_t$, $x_t$ and the computation of the Aivx and Wixv matrices. 
 
 ### Estimation Examples
 
 ```R
 
+# Firm 1
+# Predictive Regression model with both nonstationary regressors and exogenous stationary regressors
 
+$coefficients_ivx
+         VIX    Liquidity        X3MTB        Yield       Credit         GSPC          IYR        LEV.1         MM.1       SIZE.1        MTB.1 
+ 0.000170558 -0.046851942 -0.047916642  0.012450139  0.027512718 -0.152131917 -0.022165772 -0.025384947 -0.236026228  0.041882907 -0.026078263 
+
+$coefficients_ols
+                 Estimate   Std. Error    t value    Pr(>|t|)
+(intercept)  0.9695197511 0.7009755278  1.3831007 0.167659055
+VIX          0.0008075845 0.0007939275  1.0172019 0.309874316
+Liquidity    0.0356281353 0.0334936327  1.0637286 0.288304275
+X3MTB        0.0086309744 0.0355966516  0.2424659 0.808584298
+Yield        0.0201886162 0.0079891317  2.5270101 0.012015940
+Credit       0.0366477426 0.0128812353  2.8450488 0.004744993
+GSPC        -0.5797704937 0.2403147036 -2.4125469 0.016439260
+IYR          0.1900759067 0.1548954508  1.2271239 0.220734945
+
+LEV.1       -0.0424506894 0.0134424506 -3.1579576 0.001750051
+MM.1        -0.4191338885 0.2824838149 -1.4837448 0.138922989
+SIZE.1       0.0485205358 0.0175600837  2.7631153 0.006077775
+MTB.1       -0.0657711515 0.0528333893 -1.2448785 0.214144749
 
 ```
 
