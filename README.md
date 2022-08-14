@@ -86,4 +86,4 @@ The author will be joining the University of Exeter Business School as a Visitin
 > $\textit{''If I have been able to see further, it was only because I stood on the shoulders of giants."}$
 > $- \text{Isaac Newton, 1676}$ 
 
-$\textbf{John von Neumann}$
+$\textbf{John von Neumann}$ (28 December 1903 – 8 February 1957) was a Hungarian-American mathematician, physicist, computer scientist, engineer and polymath. He was regarded as having perhaps the widest coverage of any mathematician of his time and was said to have been "the last representative of the great mathematicians who were equally at home in both pure and applied mathematics".
