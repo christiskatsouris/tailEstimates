@@ -44,7 +44,7 @@ library("tailEstimates")
 
 ## Empirical Application
 
-This short empirical study can help us to better understand the methodology used for fitting predictive regression models based on the IVX instrumentation of KMS (2015) by considering equation-by-equation estimates. Additionally, since the TENET dataset includes both system covariates (such as the macroeconomic variables) as well as firm-specific variables, we can also investigate with more details the statistical procedure for constructing the dynamic VaR-DCoVaR risk matrix as well as related asymptotic theory properties.   
+This short empirical study can help us to better understand the methodology used for fitting predictive regression models based on the IVX instrumentation of KMS (2015) by considering equation-by-equation estimates. Moreover, since the TENET dataset includes both system covariates (such as the macroeconomic variables) as well as firm-specific variables, we can also investigate with more details the statistical procedure for constructing the dynamic VaR-DCoVaR risk matrix as well as related asymptotic theory properties.   
 
 -	Step 1: For $y_t$ we use the stock returns of each firm and for $x_t$ the set of macroeconomic and firm variables corresponding to each firm. First, we construct the lag $x_t$ variables and regress $y_t$ on $x_t$ to obtain the A matrix with the estimated coefficients of this multivariate regression. Then, we estimate the residuals of the predictive regression, and we obtain the coefficients of the Rn matrix, which is simply estimated by solving with respect to the residuals in a regression model with no intercept. 
 
@@ -94,6 +94,8 @@ $\textbf{[2]}$ Tobias, A., & Brunnermeier, M. K. (2016). CoVaR. The American Eco
 $\textbf{[3]}$ Härdle, W. K., Wang, W., & Yu, L. (2016). Tenet: Tail-event driven network risk. Journal of Econometrics, 192(2), 499-513. [DOI:10.1016/j.jeconom.2016.02.013](https://www.sciencedirect.com/science/article/pii/S0304407616300161).  
 
 $\textbf{[4]}$ Lee, J. H. (2016). Predictive quantile regression with persistent covariates: IVX-QR approach. Journal of Econometrics, 192(1), 105-118. [https://doi.org/10.1016/j.jeconom.2015.04.003](https://www.sciencedirect.com/science/article/pii/S0304407615003000).
+
+$\textbf{[5]}$ Kostakis, A., Magdalinos, T., & Stamatogiannis, M. P. (2015). "Robust econometric inference for stock return predictability". The Review of Financial Studies, 28(5), 1506-1553.
 
 # Code of Coduct
 
