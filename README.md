@@ -57,6 +57,9 @@ library("tailEstimates")
 # Firm 1
 # Predictive Regression model with both nonstationary regressors and exogenous stationary regressors
 
+# Nonstationary regressors represent the macroeconomic variables
+# Stationary regressors represent the firm characteristic variables
+
 $coefficients_ivx
          VIX    Liquidity        X3MTB        Yield       Credit         GSPC          IYR        LEV.1         MM.1       SIZE.1        MTB.1 
  0.000170558 -0.046851942 -0.047916642  0.012450139  0.027512718 -0.152131917 -0.022165772 -0.025384947 -0.236026228  0.041882907 -0.026078263 
