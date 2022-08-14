@@ -84,6 +84,9 @@ MTB.1       -0.0657711515 0.0528333893 -1.2448785 0.214144749
 
 ```
 
+### Remarks: 
+
+Notice that the above data structure that encompasses both a set of nonstationary regressors and a set of exogenous stationary covariates in predictive regression models is a novel aspect in the literature which worth further investigation, especially in terms of asymptotic theory analysis and the related estimation and testing prcedure. 
 
 # Key References
 
