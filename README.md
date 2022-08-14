@@ -42,6 +42,15 @@ library("tailEstimates")
 - Variable 6 = the weekly S&P500 index returns.
 - Variable 7 = the weekly Dow Jones US Real Estate index returns.
 
+## Estimation Examples
+
+```R
+
+
+
+```
+
+
 # Key References
 
 $\textbf{[1]}$ Katsouris, C. (2021). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. arXiv preprint [arXiv:2112.12031](https://arxiv.org/abs/2112.12031).
