@@ -23,7 +23,7 @@ library("tailEstimates")
 ```
 
 
-## TENET Dataset
+## TENET Dataset ( [Härdle et al. (2016)](https://www.sciencedirect.com/science/article/pii/S0304407616300161))
 
 ### Firm Specific Variables
 
