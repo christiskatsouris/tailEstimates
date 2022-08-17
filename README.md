@@ -22,10 +22,9 @@ library("tailEstimates")
 
 ```
 
-
 ## TENET Dataset
 
-The dataset for our empirical application is obtained from [Härdle et al. (2016)](https://www.sciencedirect.com/science/article/pii/S0304407616300161), which includes a panel of the top 100 publicly traded US financial institutions by market capitalization. These high market capitalized financial institutions are categorized into four groups: (i) depositories, (ii) insurance companies, (iii) broker-dealers, and (iv) other financial institutions. Moreover, the stock returns of these firms are computed as $r_t = 100 \mathsf{log} ( P_{t} - P_{t-1} )$, where $P_t$ denotes the log prices. 
+The dataset for our empirical application is obtained from [Härdle et al. (2016)](https://www.sciencedirect.com/science/article/pii/S0304407616300161), which includes a panel of the top 100 publicly traded US financial institutions by market capitalization. These high market capitalized financial institutions are categorized into four groups: (i) depositories, (ii) insurance companies, (iii) broker-dealers, and (iv) other financial institutions. Moreover, the stock returns of these firms are computed as $r_t = 100 \mathsf{log} ( P_{t} - P_{t-1} )$, where $P_t$ denotes the log prices. Let $\mathbf{Y}_t$ be the matrix of log-returns of a set of $N$ assets, that is, $\mathbf{Y}_t= (y_{1,t},...,y_{N,t})$ and $\mathbf{X}_t$ be the matrix of common covariates for all financial institutions. That is, $\mathbf{X}_t = [ \mathbf{M}_t \vdots \mathbf{B}_t ]$ where $\mathbf{M}_t = [ m_{1,t},...,m_{k,t}]$ where $k$ the number of macroeconomic variables and $\mathbf{B}_t = [ \mathbf{b}_{1,t},..., \mathbf{b}_{N,t}]$ with $\mathbf{b}_{i,t}=[ b_{1,t},...,b_{r,t}]$ where $r$ the number of common firm characteristics. 
 
 ### Firm Specific Variables
 
