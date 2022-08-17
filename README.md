@@ -58,8 +58,7 @@ The empirical study provides insights regarding the procedure for fitting predic
 
 ### Estimation Examples
 
-We fit the predictive regression models to a subset of the financial institutions from the TENET paper $(N=40)$. The estimations were done with the help of the R package  'ivx'. Firstly, as it appears the macroeconomic variables since are common across all predictive regressions could possibly have similar effect in the predictive ability of the stock returns but this is not true in all cases. A formal Wald-type hypothesis testing is also necessary to draw related conclusions.  
-Also, we can observe that the coefficients show different degree of persistence across variables and across the equation-by-equation predictive regressions for the cross-section of firms.   
+We fit the predictive regression models to a subset of the financial institutions from the TENET paper $(N=40)$. The estimations were done with the help of the R package  'ivx'. Firstly, as it appears the macroeconomic variables since are common across all predictive regressions could possibly have similar effect in the predictive ability of the stock returns but this is not true in all cases. A formal Wald-type hypothesis testing is also necessary to draw related conclusions. Furthermore, we can observe that the coefficients show different degree of persistence across variables and across the equation-by-equation predictive regressions for the cross-section of firms.   
 
 ```R
 
