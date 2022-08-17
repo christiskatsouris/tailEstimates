@@ -23,7 +23,9 @@ library("tailEstimates")
 ```
 
 
-## TENET Dataset ([Härdle et al. (2016)](https://www.sciencedirect.com/science/article/pii/S0304407616300161))
+## TENET Dataset
+
+The dataset for our empirical application is obtained from [Härdle et al. (2016)](https://www.sciencedirect.com/science/article/pii/S0304407616300161), which includes a panel of the top 100 publicly traded US financial institutions by market capitalization. These high market capitalized financial institutions are categorized into four groups: (i) depositories, (ii) insurance companies, (iii) broker-dealers, and (iv) other financial institutions. Moreover, the stock returns of these firms are computed as $r_t = 100 \mathsf{log} ( P_{t} - P_{t-1} )$, where $P_t$ denotes the log prices. 
 
 ### Firm Specific Variables
 
