@@ -36,13 +36,15 @@ The dataset for our empirical application is obtained from [Härdle et al. (2016
 
 ### Macroeconomic Variables
 
-- Variable 1 = the implied volatility index (VIX).
+- Variable 1 = the implied volatility index (VIX)*.
 - Variable 2 = the short term liquidity spread calculated as the difference between the three-month repo rate and the three-month bill rate.
 - Variable 3 = the changes in the three-month Treasury bill rate.
 - Variable 4 = the changes in the slope of the yield curve corresponding to the yield spread between the ten year Treasury rate and the three-month bill rate from FRB.
 - Variable 5 = the changes in the credit spread between BAA rated bonds and the Treasury rate.
 - Variable 6 = the weekly S&P500 index returns.
 - Variable 7 = the weekly Dow Jones US Real Estate index returns.
+
+*The VIX is considered a robust financial variable which can capture financial conditions and time-varying volatility effects across the US financial markets.
 
 ## Empirical Application
 
