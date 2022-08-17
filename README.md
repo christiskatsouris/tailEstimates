@@ -58,13 +58,18 @@ The empirical study provides insights regarding the procedure for fitting predic
 
 ### Estimation Examples
 
+We fit the predictive regression models to a subset of the financial institutions from the TENET paper $(N=40)$. The estimations were done with the help of the R package  'ivx'. Firstly, as it appears the macroeconomic variables since are common across all predictive regressions could possibly have similar effect in the predictive ability of the stock returns but this is not true in all cases. A formal Wald-type hypothesis testing is also necessary to draw related conclusions.  
+Also, we can observe that the coefficients show different degree of persistence across variables and across the equation-by-equation predictive regressions for the cross-section of firms.   
+
 ```R
 
-# Firm 1
 # Predictive Regression model with both nonstationary regressors and exogenous stationary regressors
-
 # Nonstationary regressors represent the macroeconomic variables
 # Stationary regressors represent the firm characteristic variables
+
+######################
+# Firm 1
+######################
 
 $coefficients_ivx
          VIX    Liquidity        X3MTB        Yield       Credit         GSPC          IYR        LEV.1         MM.1       SIZE.1        MTB.1 
@@ -86,6 +91,35 @@ MM.1        -0.4191338885 0.2824838149 -1.4837448 0.138922989
 SIZE.1       0.0485205358 0.0175600837  2.7631153 0.006077775
 MTB.1       -0.0657711515 0.0528333893 -1.2448785 0.214144749
 
+$ar
+ [1]  0.98912636  0.84615665  0.07760762  0.99858887  1.00036641 -0.06066777 -0.04922636  0.99959036  1.00005729  0.99480468  1.00033744
+
+######################
+# Firm 40
+######################
+
+$coefficients_ivx
+          VIX     Liquidity         X3MTB         Yield        Credit          GSPC           IYR        LEV.40         MM.40       SIZE.40        MTB.40 
+ 0.0001757807 -0.1067297328  0.0346327725  0.0046821559  0.0722115562 -0.0271626190  0.0772338555 -0.0145678173 -5.4013499129  0.1617595088  0.1206624350 
+
+$coefficients_ols
+                Estimate  Std. Error     t value   Pr(>|t|)
+(intercept)  1.112344188 2.021351883  0.55029715 0.58252371
+VIX         -0.001607709 0.001249803 -1.28637017 0.19930245
+Liquidity    0.019459936 0.049630125  0.39209926 0.69526235
+X3MTB       -0.001674978 0.054631195 -0.03065974 0.97556121
+Yield        0.001370419 0.010734272  0.12766765 0.89849724
+Credit       0.089015110 0.027562549  3.22956734 0.00137689
+GSPC        -0.277105820 0.367020047 -0.75501549 0.45083004
+IYR          0.137638621 0.237392997  0.57979225 0.56248844
+
+LEV.40      -0.038549653 0.019102121 -2.01808228 0.04446957
+MM.40       -3.233131058 7.690884279 -0.42038483 0.67450430
+SIZE.40      0.136530494 0.061136250  2.23321670 0.02626950
+MTB.40      -0.088333116 0.185614364 -0.47589591 0.63449375
+
+$ar
+ [1]  0.98912636  0.84615665  0.07760762  0.99858887  1.00036641 -0.06066777 -0.04922636  0.99989941  0.99682082  0.99524963  1.00007511
 ```
 
 ### Remarks: 
