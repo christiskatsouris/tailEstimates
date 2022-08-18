@@ -128,7 +128,12 @@ Notice that the above data structure that encompasses both a set of nonstationar
 
 ```R
 
+# Predictive Regression model with nonstationary regressors (modeled using the LUR specification)
+# Nonstationary (e.g., persistent) regressors represent the macroeconomic variables
 
+######################
+# Firm 1
+######################
 
 
 ```
