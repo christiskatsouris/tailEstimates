@@ -55,7 +55,7 @@ The empirical study provides insights regarding the procedure for fitting predic
 
 -	Step 3: Instrument construction. This step includes the construction/estimation of all necessary instrumental variables/matrices to apply the IVX methodology.  Thus, in this step we obtain estimates of the matrices $R_z$, $Z$, $y_t$, $x_t$ and the computation of the Aivx and Wixv matrices. 
 
-### Estimation Examples
+### Estimation Examples 1 (Conditional Mean Predictive Regression)
 
 We fit the predictive regression models to a subset of the financial institutions from the TENET paper $(N=40)$. The estimations were done with the help of the R package  'ivx'. Firstly, as it appears the macroeconomic variables since are common across all predictive regressions could possibly have similar effect in the predictive ability of the stock returns but this is not true in all cases. A formal Wald-type hypothesis testing is also necessary to draw related conclusions. Furthermore, we can observe that the coefficients show different degree of persistence across variables and across the equation-by-equation predictive regressions for the cross-section of firms.   
 
@@ -122,7 +122,16 @@ $ar
 
 ### Remarks: 
 
-Notice that the above data structure that encompasses both a set of nonstationary regressors and a set of exogenous stationary covariates in predictive regression models is a novel aspect in the literature which worth further investigation, especially in terms of asymptotic theory analysis and the related estimation and testing prcedure. 
+Notice that the above data structure that encompasses both a set of nonstationary regressors and a set of exogenous stationary covariates in predictive regression models is a novel aspect in the literature which worth further investigation, especially in terms of asymptotic theory analysis and the related estimation and testing procedure. However, these initial estimates are for illustration purposes, as unless otherwise specified both the paper as well as the R implementation corresponds to estimation and inference based on the predictive (quantile) regression model with persistent regressors (that is, nonstationary regressors modeled using the LUR specification). 
+
+### Estimation Examples 2 (Conditional Quantile Predictive Regression)
+
+```R
+
+
+
+
+```
 
 # Key References
 
