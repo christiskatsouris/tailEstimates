@@ -122,7 +122,7 @@ $ar
 
 ### Remarks: 
 
-Notice that the above data structure that encompasses both a set of nonstationary regressors and a set of exogenous stationary covariates in predictive regression models is a novel aspect in the literature which worths further investigation, especially in terms of asymptotic theory analysis and the related estimation and testing procedure (We leave these aspects for future research). However, these initial estimates are for illustration purposes, since unless otherwise specified both the paper as well as the R implementation corresponds to estimation and inference based on the predictive (quantile) regression model with persistent regressors (that is, nonstationary regressors modeled using the LUR specification). 
+Notice that the above data structure that encompasses both a set of nonstationary regressors and a set of exogenous stationary covariates in predictive regression models is a novel aspect in the literature which worths further study, especially in terms of asymptotic theory analysis and the related estimation and testing procedure (We leave these aspects for future research). However, these initial estimates are for illustration purposes, since unless otherwise specified both the paper as well as the R implementation corresponds to estimation and inference based on the predictive (quantile) regression model with persistent regressors (that is, nonstationary regressors modeled using the LUR specification). 
 
 ### Estimation Examples 2 (Conditional Quantile Predictive Regression)
 
