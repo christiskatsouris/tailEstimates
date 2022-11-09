@@ -149,6 +149,28 @@ The estimation methodology of the VaR-DCoVaR Risk matrix consists of the main no
 
 ```R
 
+###########################################
+R Script Details:
+###########################################
+
+Script name: MAIN_VAR_DCOVAR.R
+
+Program aim: This R program estimates a VaR-DCoVaR (tau) matrix.  
+
+written by: 
+
+Christis G. Katsouris
+Department of Economics
+University of Southampton
+Southampton, SO17 1BJ UK
+
+This program reproduces the empirical application reported in the paper: 
+"Optimal Portfolio Choice and Stock Centrality for Tail Risk Events" by Christis G. Katsouris
+
+For running this program as it is, it requires the data files of the TENET paper. 
+
+It should work with other data sets as well. 
+
 ###############################################################################
 ### MAIN FUNCTION: Estimation of the Forecasted VaR-DCoVaR Risk Matrices ######
 ###############################################################################
