@@ -168,7 +168,8 @@ This program reproduces the empirical application reported in the paper:
 
 For running this program as it is, it requires the data files of the TENET paper. 
 
-It should work with other data sets as well. 
+It should work with other data sets as well provided that the cross-section of returns and macroeconomic variables
+are stored in two separate data formats (e.g., 2 different .csv files)
 
 ###############################################################################
 ### MAIN FUNCTION 1: Estimation of the Forecasted Risk Matrices            ####
