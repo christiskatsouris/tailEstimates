@@ -162,7 +162,7 @@ written by:
 Christis G. Katsouris
 Department of Economics
 University of Southampton
-Southampton, SO17 1BJ UK
+Southampton, United Kingdom
 
 This program reproduces the empirical application reported in the paper: 
 "Optimal Portfolio Choice and Stock Centrality for Tail Risk Events" by Christis G. Katsouris
