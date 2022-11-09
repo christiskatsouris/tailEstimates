@@ -138,7 +138,6 @@ Notice that the above data structure that encompasses both a set of nonstationar
 
 ```
 
-
 ## Estimation Methodology 
 
 The estimation methodology of the VaR-DCoVaR Risk matrix consists of the main novelity of the proposed framework which involves the construction of a large covariance-type matrix based on nodewise pairewise quantile predictive regression models. 
@@ -164,8 +163,8 @@ This program reproduces the empirical application reported in the paper:
 
 For running this program as it is, it requires the data files of the TENET paper. 
 
-It should work with other data sets as well provided that the cross-section of returns and macroeconomic variables
-are stored in two separate data formats (e.g., 2 different .csv files)
+It should work with other data sets as well provided that the cross-section of returns 
+and macroeconomic variables are stored to separate data files (e.g., 2 different .csv files)
 
 ###############################################################################
 ### MAIN FUNCTION 1: Estimation of the Forecasted Risk Matrices            ####
@@ -254,7 +253,7 @@ R Script Details:
 
 Script name: MAIN_VAR_DCOVAR.R
 
-Program aim: This R program estimates of a VaR-DCoVaR (tau) matrix.  
+Program aim: This R program estimates of VaR-DCoVaR (tau) matrix.  
 
 written by: 
 
