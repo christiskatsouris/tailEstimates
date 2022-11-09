@@ -170,8 +170,6 @@ The author greatfully acknowledges financial support from Graduate Teaching Assi
 
 Part of the aspects implemented in the R package 'tailEstimates', are discussed in the PhD thesis of the author (Christis G. Katsouris) titled: "Aspects of Estimation and Inference for Predictive Regression Models", completed under the supervision of Professor Jose Olmo and Professor Anastasios Magdalinos. 
 
-The author will be joining the University of Exeter Business School as a Visiting Lecturer in Economics (Education and Scholarship) at the Department of Economics in September 2022.
-
 # Historical Background
 
 > Standing on the shoulders of giants.
