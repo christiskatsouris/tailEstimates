@@ -333,6 +333,23 @@ VaR_DCoVar_forecast_function <- function( Nr_C = Nr_C, nhist = nhist, returns = 
 
 ```
 
+## Parallel Computing within R (R Script usage)
+
+Notice that parallel computing techniques can be applied when running an R Script on a personal computer. Some examples are given below:  
+
+```R
+
+## Load package
+library(snow)
+
+## Setup parallel
+cluster <- makeCluster(4)
+
+## Export objects
+clusterExport( cluster, c( "input_parameters_to_function", "Seed") )
+
+```
+
 # Key References
 
 $\textbf{[1]}$ Katsouris, C. (2021). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. arXiv preprint [arXiv:2112.12031](https://arxiv.org/abs/2112.12031).
