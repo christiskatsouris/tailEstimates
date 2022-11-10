@@ -344,6 +344,10 @@ cluster <- makeCluster(4)
 ## Export objects
 clusterExport( cluster, c( "input_parameters_to_function", "Seed") )
 
+# The above example provides a way to use parallel techniques using the build-in cluster capabilities of R
+# without the need to use HPC and different R scripts
+
+
 ```
 
 # Key References
