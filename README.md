@@ -374,15 +374,14 @@ In particular, the author declares that has no affiliations with or involvement 
 
 # Acknowledgments
 
+The author greatfully acknowledges financial support from the [Department of Economics](http://business-school.exeter.ac.uk/about/departments/economics/) of the [Faculty of Environment, Science and Economy](https://www.exeter.ac.uk/departments/ese/) at the University of Exeter, United Kingdom. 
+
+Christis G. Katsouris is a Lecturer in Economics at the [University of Exeter Business School](http://business-school.exeter.ac.uk/). He is also a member of the [Time Series and Machine Learning Group](https://www.personal.soton.ac.uk/cz1y20/Reading_Group/mlts-group-2022.html) at the [School of Mathematical Sciences](https://www.southampton.ac.uk/about/faculties-schools-departments/school-of-mathematical-sciences) (Statistics Division) of the University of Southampton. 
+
 The author greatfully acknowledges financial support from Graduate Teaching Assistantships at the School of Economic, Social and Political Sciences of the University of Southampton as well as from the Vice-Chancellor's PhD Scholarship of the University of Southampton, for the duration of the academic years 2018 to 2021. The author also gratefully acknowledges previously obtained funding from Research Grants of interdisciplinary Centers of research excellence based at the University of Cyprus (UCY) as well as at the University College London (UCL).
 
 Part of the aspects implemented in the R package 'tailEstimates', are discussed in the PhD thesis of the author (Christis G. Katsouris) titled: "Aspects of Estimation and Inference for Predictive Regression Models", completed under the supervision of Professor Jose Olmo and Professor Anastasios Magdalinos. 
 
 # Historical Background
-
-> Standing on the shoulders of giants.
-> 
-> $\textit{''If I have been able to see further, it was only because I stood on the shoulders of giants."}$
-> $- \text{Isaac Newton, 1676}$ 
 
 $\textbf{John Von Neumann}$ (28 December 1903 – 8 February 1957) was a Hungarian-American mathematician, physicist, computer scientist, engineer and polymath. He was regarded as having perhaps the widest coverage of any mathematician of his time and was said to have been "the last representative of the great mathematicians who were equally at home in both pure and applied mathematics". Von Neumann made major contributions to many fields, including mathematics (measure theory, functional analysis, ergodic theory, group theory, lattice theory, representation theory, operator algebras, matrix theory, geometry, and numerical analysis), physics (quantum mechanics, hydrodynamics, nuclear physics and quantum statistical mechanics), economics (game theory and general equilibrium theory), computing (linear programming, scientific computing, stochastic computing), and statistics. He was a pioneer of the application of operator theory to quantum mechanics in the development of functional analysis, and a key figure in the development of game theory and the concepts of cellular automata and the digital computer. Von Neumann published over 150 papers in his life. His last work, an unfinished manuscript written while he was in the hospital, was later published in book form as The Computer and the Brain (Source: [Wikipedia](https://en.wikipedia.org/wiki/John_von_Neumann)). 
