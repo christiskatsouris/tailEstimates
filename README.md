@@ -10,7 +10,7 @@ $\textbf{(b).}$ To compute the elements of the VaR-DCoVaR risk matrix with both 
 
 ## Installation (under development)
 
-The R package ‘tailEstimates’ will be able to be installed from Github.
+The R package [‘tailEstimates’](https://github.com/christiskatsouris/tailEstimates) will be able to be installed from Github.
 
 ## Usage 
 
