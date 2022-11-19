@@ -142,6 +142,10 @@ Notice that the above data structure that encompasses both a set of nonstationar
 
 The estimation methodology of the VaR-DCoVaR Risk matrix consists of the main novelity of the proposed framework which involves the construction of a large covariance-type matrix based on nodewise pairewise quantile predictive regression models. 
 
+An important aspect related to the specific functional form of the predictive regression model we consider is the following: Firstly, in order to obtain estimates for the quantile risk measures of VaR and CoVaR we employ a conditional quantile function. Secondly, following the definition of Value-at-Risk and Conditional-Value-at-Risk proposed in the literature by Adrian and Brunnermeier (2016) (see also Härdle et al. (2016)) we use the modeling approach of a predictive regression model.     
+
+
+
 ```R
 ###########################################
 R Script Details:
@@ -354,13 +358,16 @@ clusterExport( cluster, c( "input_parameters_to_function", "Seed") )
 
 $\textbf{[1]}$ Katsouris, C. (2021). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. arXiv preprint [arXiv:2112.12031](https://arxiv.org/abs/2112.12031).
 
-$\textbf{[2]}$ Tobias, A., & Brunnermeier, M. K. (2016). CoVaR. The American Economic Review, 106(7), 1705. [DOI:10.1257/aer.20120555](https://www.aeaweb.org/articles?id=10.1257/aer.20120555).
+$\textbf{[2]}$ He, Y., Hou, Y., Peng, L., & Shen, H. (2020). Inference for conditional value-at-risk of a predictive regression. The Annals of Statistics, 48(6), 3442-3464.
 
-$\textbf{[3]}$ Härdle, W. K., Wang, W., & Yu, L. (2016). Tenet: Tail-event driven network risk. Journal of Econometrics, 192(2), 499-513. [DOI:10.1016/j.jeconom.2016.02.013](https://www.sciencedirect.com/science/article/pii/S0304407616300161).  
+$\textbf{[3]}$ Tobias, A., & Brunnermeier, M. K. (2016). CoVaR. The American Economic Review, 106(7), 1705. [DOI:10.1257/aer.20120555](https://www.aeaweb.org/articles?id=10.1257/aer.20120555).
 
-$\textbf{[4]}$ Lee, J. H. (2016). Predictive quantile regression with persistent covariates: IVX-QR approach. Journal of Econometrics, 192(1), 105-118. [https://doi.org/10.1016/j.jeconom.2015.04.003](https://www.sciencedirect.com/science/article/pii/S0304407615003000).
+$\textbf{[4]}$ Härdle, W. K., Wang, W., & Yu, L. (2016). Tenet: Tail-event driven network risk. Journal of Econometrics, 192(2), 499-513. [DOI:10.1016/j.jeconom.2016.02.013](https://www.sciencedirect.com/science/article/pii/S0304407616300161).  
 
-$\textbf{[5]}$ Kostakis, A., Magdalinos, T., & Stamatogiannis, M. P. (2015). Robust econometric inference for stock return predictability. The Review of Financial Studies, 28(5), 1506-1553. [https://doi.org/10.1093/rfs/hhu139](https://academic.oup.com/rfs/article/28/5/1506/1867633).
+$\textbf{[5]}$ Lee, J. H. (2016). Predictive quantile regression with persistent covariates: IVX-QR approach. Journal of Econometrics, 192(1), 105-118. [https://doi.org/10.1016/j.jeconom.2015.04.003](https://www.sciencedirect.com/science/article/pii/S0304407615003000).
+
+$\textbf{[6]}$ Kostakis, A., Magdalinos, T., & Stamatogiannis, M. P. (2015). Robust econometric inference for stock return predictability. The Review of Financial Studies, 28(5), 1506-1553. [https://doi.org/10.1093/rfs/hhu139](https://academic.oup.com/rfs/article/28/5/1506/1867633).
+
 
 # Code of Coduct
 
