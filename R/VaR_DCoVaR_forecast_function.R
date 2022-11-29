@@ -1,17 +1,17 @@
 ###########################################
-R Script Details:
+# R Script Details:
 ###########################################
 
-Script name: VaR_DCoVaR_forecast_function.R
+# Script name: VaR_DCoVaR_forecast_function.R
 
-Program aim: This R program estimates of VaR-DCoVaR (tau) matrix.  
+# Program aim: This R program estimates of VaR-DCoVaR (tau) matrix.  
 
-written by: 
+# written by: 
 
-Christis G. Katsouris (December 2020)
-Department of Economics
-University of Southampton
-Southampton, United Kingdom
+# Christis G. Katsouris (December 2020)
+# Department of Economics
+# University of Southampton
+# Southampton, United Kingdom
 
 ###############################################################################
 ### MAIN FUNCTION 2: Estimation of the Forecasted VaR-DCoVaR Risk Matrices ####
