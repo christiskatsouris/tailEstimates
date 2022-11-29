@@ -4,7 +4,7 @@
 
 This R package has two main purposes:
 
-$\textbf{(a).}$ To implement the optimization and estimation procedure that provides in-sample and out-of-sample estimates for the VaR-DCoVaR risk matrix proposed in the paper of [Katsouris, C. (2021)](https://arxiv.org/abs/2112.12031).
+$\textbf{(a).}$ To implement the optimization and estimation procedure that provides in-sample and out-of-sample estimates for the VaR-DCoVaR risk matrix proposed in the paper of [Katsouris, C. (2021)](https://arxiv.org/abs/2112.12031) (coding procedure as per R Script compliled December 2020 at HPC of the University of Southampton).
 
 $\textbf{(b).}$ To compute the elements of the VaR-DCoVaR risk matrix with both OLS and IVX estimates (as a user defined option) based on pairwise nonstationary quantile predictive regression models fitted on the nodes of the graph.
 
@@ -157,7 +157,7 @@ Program aim: This R program estimates of the Risk Matrix before symmetrization.
 
 written by: 
 
-Christis G. Katsouris
+Christis G. Katsouris (December 2020)
 Department of Economics
 University of Southampton
 Southampton, United Kingdom
@@ -261,7 +261,7 @@ Program aim: This R program estimates of VaR-DCoVaR (tau) matrix.
 
 written by: 
 
-Christis G. Katsouris
+Christis G. Katsouris (December 2020)
 Department of Economics
 University of Southampton
 Southampton, United Kingdom
