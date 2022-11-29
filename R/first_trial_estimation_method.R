@@ -1,18 +1,18 @@
 ###########################################
-R Script Details:
+# R Script Details:
 ###########################################
 
-Script name: first_trial_estimation_method.R
+# Script name: first_trial_estimation_method.R
 
-Program aim: This R program estimates the proposed risk matrix (first working paper in 2019) 
-(the current Script was modified accordingly in subsequent versions)
+# Program aim: This R program estimates the proposed risk matrix (first working paper in 2019) 
+# (the current Script was modified accordingly in subsequent versions)
 
-written by: 
+# written by: 
 
-Christis G. Katsouris (March 2019)
-Department of Economics
-University of Southampton
-Southampton, United Kingdom
+# Christis G. Katsouris (March 2019)
+# Department of Economics
+# University of Southampton
+# Southampton, United Kingdom
 
 ############################################################################
 ### REQUIRED PACKAGES
