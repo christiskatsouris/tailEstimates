@@ -1,0 +1,68 @@
+###########################################
+# R Script Details:
+###########################################
+
+# Script name: creative_looping.R
+
+# Program aim: This R program estimates time-varying VaR and CoVaR risk measures.  
+
+# written by: 
+
+# Christis G. Katsouris (March 2019)
+# Department of Economics
+# University of Southampton
+# Southampton, United Kingdom
+
+######################################################################################
+
+# Define the dimensions of the matrix
+# Number_of_companies=10
+
+Nr_C = Number_of_companies
+Time = 314
+
+#Initialize the matrix with null values
+Covar_matrix=as.data.frame(matrix(NA,Time,Nr_C*Nr_C))
+
+#k is the number of blocks used in the construction of the Covar matrix
+# blocks are the same as the number of firms used in the construction of the matrix
+# We can use a while loop to move between the blocks of the constructed matrix
+
+for (k in 1:Nr_C)
+{# begin of loop
+  for (i in 1:Nr_C)
+  {# begin of i loop
+    for (j in 1:Nr_C)
+    {# begin of j loop
+      name_to_call=paste("CoVaR",i,"_",j,".csv",sep="")
+      tempo=read.csv(as.character(name_to_call))
+      tempo=as.data.frame(tempo[,2])
+      colnames(tempo)=as.character(paste(i,"_",j,sep=""))
+      
+      #construct the indices of the Covar matrix
+      if (i==1)
+      {#begin of if-statement
+        #min=1
+        #max=10
+        Covar_matrix[ , j ]=tempo
+      }#end of if-statement
+      
+      if (i >= 2)
+      {#begin of if-statement
+        first.digit <- (i-1)
+        second.digit <- 0  
+        
+        min <-  paste( first.digit,second.digit,sep="" )
+        min <-  noquote(min)
+        min<- as.numeric(min)
+        max=2*k*10
+        
+        Covar_matrix[ , (min + j) ]=tempo
+      }#end of if-statement
+      
+    }#end of j loop
+  }#end of i loop
+  
+}# end of for loop  
+
+######################################################################################
