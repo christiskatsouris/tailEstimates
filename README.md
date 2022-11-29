@@ -6,11 +6,11 @@ This R package has two main purposes:
 
 $\textbf{(a).}$ To implement the optimization and estimation procedure that provides in-sample and out-of-sample estimates for the VaR-DCoVaR risk matrix proposed in the paper of [Katsouris, C. (2021)](https://arxiv.org/abs/2112.12031) (coding procedure as per R Script compiled December 2020 at HPC of the University of Southampton).
 
-$\textbf{(b).}$ To compute the elements of the VaR-DCoVaR risk matrix with both OLS and IVX estimates (as a user defined option) based on pairwise nonstationary quantile predictive regression models fitted on the nodes of the graph (coding procedure as per R Script compiled December 2021 at HPC of the University of Southampton)..
+$\textbf{(b).}$ To compute the elements of the VaR-DCoVaR risk matrix with both OLS and IVX estimates (as a user defined option) based on pairwise nonstationary quantile predictive regression models fitted on the nodes of the graph (coding procedure as per R Script compiled December 2021 at HPC of the University of Southampton).
 
 ## Installation (under development)
 
-The R package [‘tailEstimates’](https://github.com/christiskatsouris/tailEstimates) will be able to be installed from Github and [CRAN](https://cran.r-project.org/) soon.
+The R package [‘tailEstimates’](https://github.com/christiskatsouris/tailEstimates) will be able to be installed from Github and [CRAN](https://cran.r-project.org/).
 
 ## Usage 
 
