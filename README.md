@@ -148,27 +148,27 @@ An important aspect related to the specific functional form of the predictive re
 
 ```R
 ###########################################
-R Script Details:
+# R Script Details:
 ###########################################
 
-Script name: MAIN_Risk_Matrix.R
+# Script name: MAIN_Risk_Matrix.R
 
-Program aim: This R program estimates of the Risk Matrix before symmetrization.  
+# Program aim: This R program estimates of the Risk Matrix before symmetrization.  
 
-written by: 
+# written by: 
 
-Christis G. Katsouris (December 2020)
-Department of Economics
-University of Southampton
-Southampton, United Kingdom
+# Christis G. Katsouris (December 2020)
+# Department of Economics
+# University of Southampton
+# Southampton, United Kingdom
 
-This program reproduces the empirical application reported in the paper: 
-"Optimal Portfolio Choice and Stock Centrality for Tail Risk Events" by Christis G. Katsouris
+# This program reproduces the empirical application reported in the paper: 
+# "Optimal Portfolio Choice and Stock Centrality for Tail Risk Events" by Christis G. Katsouris
 
-For running this program as it is, it requires the data files of the TENET paper. 
+# For running this program as it is, it requires the data files of the TENET paper. 
 
-It should work with other data sets as well provided that the cross-section of returns 
-and macroeconomic variables are stored to separate data files (e.g., 2 different .csv files)
+# It should work with other data sets as well provided that the cross-section of returns 
+# and macroeconomic variables are stored to separate data files (e.g., 2 different .csv files)
 
 ###############################################################################
 ### MAIN FUNCTION 1: Estimation of the Forecasted Risk Matrices            ####
@@ -252,19 +252,19 @@ Risk_Matrix_forecast_function <- function( Nr_C = Nr_C, returns = returns, macro
 ###############################################################################
 
 ###########################################
-R Script Details:
+# R Script Details:
 ###########################################
 
-Script name: MAIN_VAR_DCOVAR.R
+# Script name: MAIN_VAR_DCOVAR.R
 
-Program aim: This R program estimates of VaR-DCoVaR (tau) matrix.  
+# Program aim: This R program estimates of VaR-DCoVaR (tau) matrix.  
 
-written by: 
+# written by: 
 
-Christis G. Katsouris (December 2020)
-Department of Economics
-University of Southampton
-Southampton, United Kingdom
+# Christis G. Katsouris (December 2020)
+# Department of Economics
+# University of Southampton
+# Southampton, United Kingdom
 
 ###############################################################################
 ### MAIN FUNCTION 2: Estimation of the Forecasted VaR-DCoVaR Risk Matrices ####
