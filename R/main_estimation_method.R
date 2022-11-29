@@ -2,7 +2,7 @@
 # R Script Details:
 ###########################################
 
-# Script name: first_trial_estimation_method.R
+# Script name: main_estimation_method.R (first draft March 2019)
 
 # Program aim: This R program estimates the proposed risk matrix (first working paper in 2019) 
 # (the current Script was modified accordingly in subsequent versions)
