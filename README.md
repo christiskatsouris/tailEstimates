@@ -144,8 +144,6 @@ The estimation methodology of the VaR-DCoVaR Risk matrix consists of the main no
 
 An important aspect related to the specific functional form of the predictive regression model we consider is the following: Firstly, in order to obtain estimates for the quantile risk measures of VaR and CoVaR we employ a conditional quantile function. Secondly, following the definition of Value-at-Risk and Conditional-Value-at-Risk proposed in the literature by Adrian and Brunnermeier (2016) (see also Härdle et al. (2016)) we use the modeling approach of a predictive regression model as defined in this stream of literature. However, in addition we relax the assumption that regressors (i.e., the model predictors which are often representing macroeconomic variables) have to have stationary time series properties - in the sence that their integration properties reflect the stochastic behaviour of I(0) processes. By relaxing this assumption, we can employ the nonstationary predictive regression model which can capture both stationary and nonstationary features of predictors such as near-integrated or local-to-unity processes.        
 
-
-
 ```R
 ###########################################
 # R Script Details:
@@ -351,8 +349,13 @@ clusterExport( cluster, c( "input_parameters_to_function", "Seed") )
 # The above example provides a way to use parallel techniques using the build-in cluster capabilities of R
 # without the need to use HPC and different R scripts
 
-
 ```
+
+## Monte Carlo Simulation Study 
+
+The proposed estimation and testing methodology proposed by [Katsouris, C. (2021)](https://arxiv.org/abs/2112.12031) is further investigated with a small simulation study. The data generating process is simulated based on the econometric specifications of the risk measures of VaR and CoVaR.    
+
+
 
 # Key References
 
