@@ -16,6 +16,39 @@
 # This program reproduces the simulation study reported in the paper: 
 # "Optimal Portfolio Choice and Stock Centrality for Tail Risk Events" by Christis G. Katsouris
 
+############################################################################
+############################################################################
+
+library(quantreg)
+library(Matrix)
+library(matlib)
+library(GA)
+library(igraph)
+library(nnet)
+library(mvtnorm)
+
+library(vars)
+
+library(parallel)
+library(doParallel)
+library(MASS)
+library(foreach)
+
+###############################################################
+
+options(digits=12) 
+no_cores=4
+cl = makeCluster(no_cores)       
+
+registerDoParallel(cores=4)
+
+###############################################################
+
+source("Risk_Matrix_forecast_function.R")
+source("VaR_DCoVar_forecast_function.R")
+source("optimal_weights_function_GA.R")
+source("optimal_number_of_assets_function_GA_most_central.R")
+source("optimal_number_of_assets_function_GA_less_central.R")
 
 ###############################################################################
 # FUNCTION: Bootstrapping the predictive regression model ##########
@@ -194,4 +227,45 @@ bootstrap_data_function <- function( Nr_C = Nr_C, time = time, returns=returns, 
   return( list( y.t.star = y.t.star, x.t.star = x.t.star) )
   
 }# end of function 
+###############################################################################
+
+###############################################################################
+### MAIN OF THE PROGRAM: INPUT - ESTIMATE - OUTPUT ######
+###############################################################################
+
+start_time <- Sys.time()
+
+dataset    <- read.csv("100_firms_returns_and_macro_2015-04-15.csv", header = TRUE)
+
+set.seed(1234)
+time  <-  314
+nhist <-  250
+Nr_C  <-  30
+
+window_size <-  250
+
+returns <- as.matrix(dataset[, 2:( 101 ) ])    
+macro   <- as.matrix(dataset[, 102:108])
+
+returns <- as.matrix( returns[ (1:time), (1:Nr_C) ] )
+macro   <- as.matrix( macro[1:time,] )
+
+
+bootstrap_data <-  bootstrap_data_function( Nr_C=30, time=314, returns=returns, macro=macro ) 
+returns        <-  as.matrix( bootstrap_data$y.t.star )
+macro          <-  as.matrix( bootstrap_data$x.t.star )
+
+returns
+macro
+
+mylist <- list()
+mylist[[1]] <- returns
+mylist[[2]] <- macro
+
+capture.output( mylist, file = "bootstrap_data_30nodes.txt" )
+
+
+end_time <- Sys.time()
+end_time - start_time
+
 ###############################################################################
